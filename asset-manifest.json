@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Santosajoao/busca-cep/static/css/main.26b0ce48.css",
+    "main.js": "/Santosajoao/busca-cep/static/js/main.b67d1ba6.js",
+    "index.html": "/Santosajoao/busca-cep/index.html",
+    "main.26b0ce48.css.map": "/Santosajoao/busca-cep/static/css/main.26b0ce48.css.map",
+    "main.b67d1ba6.js.map": "/Santosajoao/busca-cep/static/js/main.b67d1ba6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26b0ce48.css",
+    "static/js/main.b67d1ba6.js"
+  ]
+}
