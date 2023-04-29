@@ -4,6 +4,7 @@ import "./Styles.css";
 import Api from './services/Api';
 
 
+
 function App(){
 
   var [input, setInput] = useState('')
@@ -43,8 +44,6 @@ function App(){
         onChange={(event) => setInput(event.target.value)}
         />
 
-        
-
         <button className="buttonSearch" onClick={handleSearch}>
           <FaSearchLocation size="25" color="	#FFFF"/>
         </button>
@@ -53,12 +52,12 @@ function App(){
       {Object.keys(data).length > 0 &&(
       <main className="main">
         <h2>CEP: {data.cep}</h2>
-        <span>Rua: {data.logradouro}</span>
+        <span> {data.logradouro}</span>
         <span>Bairro: {data.bairro}</span>
         <span>Cidade: {data.localidade}</span>
         <span>Estado: {data.uf}</span>
       </main>
-      )};
+      )}
     </div>   
     
   );
